@@ -1,0 +1,22 @@
+# Standard python gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Database
+*.db
+
+# Credentials & Secrets
+secrets/
+token.json
+
+# IDE and Agent metadata
+.agent/
+.gemini/
+.codex/
+
